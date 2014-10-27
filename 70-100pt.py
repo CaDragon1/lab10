@@ -35,5 +35,7 @@ houseDoor = drawpad.create_rectangle(360, 400, 440, 550)
 # Windows
 windowOne = drawpad.create_rectangle(275, 410, 340, 475)
 windowTwo = drawpad.create_rectangle(460, 410, 525, 475)
+# Door handle
+handle = drawpad.create_oval(420, 480, 430, 490)
 
 root.mainloop()
