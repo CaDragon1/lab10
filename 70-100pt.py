@@ -23,8 +23,12 @@ drawpad = Canvas(root, width=800,height=600, background='white')
 drawpad.grid(row=0, column=1)
 
 # Insert your code here to draw the house!
+
+# House walls
 houseBody = drawpad.create_rectangle(250, 250, 550, 550)
+# Roof
 houseRoofOne = drawpad.create_line(150, 250, 400, 50)
 houseRoofTwo = drawpad.create_line(400, 50, 650, 250)
+houseRoofThree = drawpad.create_line(150, 250, 650, 250)
 
 root.mainloop()
