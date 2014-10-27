@@ -30,5 +30,10 @@ houseBody = drawpad.create_rectangle(250, 250, 550, 550)
 houseRoofOne = drawpad.create_line(150, 250, 400, 50)
 houseRoofTwo = drawpad.create_line(400, 50, 650, 250)
 houseRoofThree = drawpad.create_line(150, 250, 650, 250)
+# Door
+houseDoor = drawpad.create_rectangle(360, 400, 440, 550)
+# Windows
+windowOne = drawpad.create_rectangle(275, 410, 340, 475)
+windowTwo = drawpad.create_rectangle(460, 410, 525, 475)
 
 root.mainloop()
