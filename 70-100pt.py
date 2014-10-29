@@ -35,7 +35,11 @@ houseDoor = drawpad.create_rectangle(360, 400, 440, 550)
 # Windows
 windowOne = drawpad.create_rectangle(275, 410, 340, 475)
 windowTwo = drawpad.create_rectangle(460, 410, 525, 475)
-# Door handle
+# Doorknob
 handle = drawpad.create_oval(420, 480, 430, 490)
+# Chimney
+chimneyOne = drawpad.create_line(265, 158, 265, 90)
+chimneyTwo = drawpad.create_line(285, 142, 285, 90)
+chimneyThree = drawpad.create_line(265, 90, 285, 90)
 
 root.mainloop()
