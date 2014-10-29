@@ -41,5 +41,7 @@ handle = drawpad.create_oval(420, 480, 430, 490)
 chimneyOne = drawpad.create_line(265, 158, 265, 90)
 chimneyTwo = drawpad.create_line(285, 142, 285, 90)
 chimneyThree = drawpad.create_line(265, 90, 285, 90)
+# Grass
+grass = drawpad.create_rectangle(0, 550, 900, 700)
 
 root.mainloop()
